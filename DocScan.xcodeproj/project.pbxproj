@@ -14,6 +14,10 @@
 		BEA3A72627E1846100021839 /* DocScanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3A72527E1846100021839 /* DocScanTests.swift */; };
 		BEA3A73027E1846100021839 /* DocScanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3A72F27E1846100021839 /* DocScanUITests.swift */; };
 		BEA3A73227E1846100021839 /* DocScanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3A73127E1846100021839 /* DocScanUITestsLaunchTests.swift */; };
+		BEA3A73F27E184C500021839 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3A73E27E184C500021839 /* ScannerView.swift */; };
+		BEA3A74127E1850800021839 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3A74027E1850800021839 /* Model.swift */; };
+		BEA3A74327E1853200021839 /* TextPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3A74227E1853200021839 /* TextPreviewView.swift */; };
+		BEA3A74527E1856300021839 /* TextRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3A74427E1856300021839 /* TextRecognition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		BEA3A72B27E1846100021839 /* DocScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA3A72F27E1846100021839 /* DocScanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocScanUITests.swift; sourceTree = "<group>"; };
 		BEA3A73127E1846100021839 /* DocScanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocScanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEA3A73E27E184C500021839 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		BEA3A74027E1850800021839 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BEA3A74227E1853200021839 /* TextPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPreviewView.swift; sourceTree = "<group>"; };
+		BEA3A74427E1856300021839 /* TextRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				BEA3A71627E1846000021839 /* ContentView.swift */,
 				BEA3A71827E1846100021839 /* Assets.xcassets */,
 				BEA3A71A27E1846100021839 /* Preview Content */,
+				BEA3A73E27E184C500021839 /* ScannerView.swift */,
+				BEA3A74027E1850800021839 /* Model.swift */,
+				BEA3A74227E1853200021839 /* TextPreviewView.swift */,
+				BEA3A74427E1856300021839 /* TextRecognition.swift */,
 			);
 			path = DocScan;
 			sourceTree = "<group>";
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA3A73F27E184C500021839 /* ScannerView.swift in Sources */,
+				BEA3A74327E1853200021839 /* TextPreviewView.swift in Sources */,
 				BEA3A71727E1846000021839 /* ContentView.swift in Sources */,
 				BEA3A71527E1846000021839 /* DocScanApp.swift in Sources */,
+				BEA3A74527E1856300021839 /* TextRecognition.swift in Sources */,
+				BEA3A74127E1850800021839 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,8 +435,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DocScan/Preview Content\"";
+				DEVELOPMENT_TEAM = CW6H68XL45;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = saa;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,8 +465,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DocScan/Preview Content\"";
+				DEVELOPMENT_TEAM = CW6H68XL45;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = saa;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
